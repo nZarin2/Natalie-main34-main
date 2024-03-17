@@ -36,3 +36,56 @@ p{
 h2{
      text-align: center;
 }
+.topnav {
+     position: relative;
+    
+     overflow: hidden;
+   }
+   
+  
+   .topnav a {
+     float: left;
+     color: #000000;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+     border:2px solid rgb(0, 0, 0);
+     width: 170px;
+     height:30px;
+     
+   }
+   
+
+   .topnav a:hover {
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+   }
+   
+ 
+   .topnav a.active {
+     background-color: #9a758a;
+     color: rgb(0, 0, 0);
+   }
+   .topnav a:before{
+     transform:translateX(-100%);
+     transition: 0.3s;
+   }
+   
+
+   .topnav-right {
+     float: right;
+   }
+   
+
+   @media screen and (max-width: 600px) {
+     
+   }
+    
+   
+     .topnav-centered a {
+       position: relative;
+       top: 0;
+       left: 0;
+       transform: none;
+     }
