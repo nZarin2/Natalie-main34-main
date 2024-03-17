@@ -83,3 +83,9 @@ h1:before{
        left: 0;
        transform: none;
      }
+h2{
+     text-align: center;
+}
+p{
+     text-align: center;
+}
